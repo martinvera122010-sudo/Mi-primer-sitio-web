@@ -1,22 +1,18 @@
 /* Tema Modo Oscuro Cyber-Gamer */
+/* Fuente general para todo el cuerpo del documento */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0f172;
-    color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
     max-width: 650px;
     margin: 40px auto;
     padding: 20px;
 }
 
-h1 {
-    color: #38bdf8;
-    text-align: center;
-}
-
-h2 {
-    color: #1500A8;
-    border-bottom: 2px solid #38bdf8;
-    padding-bottom: 6px;
+/* Fuente específica para dar jerarquía a los títulos */
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0284c7;
 }
 
 ul, .card {
